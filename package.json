@@ -1,0 +1,45 @@
+{
+  "name": "fetch-chat-gpt-invoice",
+  "version": "1.0.0",
+  "description": "Automate fetching invoices from ChatGPT subscription using Puppeteer.",
+  "license": "MIT",
+  "author": {
+    "name": "Radomir Wojtera",
+    "email": "radomir.wojtera@gmail.com",
+    "url": "https://github.com/tiriana"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No tests defined' && exit 0",
+    "lint": "echo 'No linter configured' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:radomir-dev/fetch-chat-gpt-invoice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/radomir-dev/fetch-chat-gpt-invoice/issues"
+  },
+  "homepage": "https://github.com/radomir-dev/fetch-chat-gpt-invoice#readme",
+  "keywords": [
+    "ChatGPT",
+    "invoices",
+    "automation",
+    "puppeteer",
+    "fetch-invoice",
+    "chatgpt-invoice"
+  ],
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^24.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/tiriana"
+  }
+}

@@ -4,9 +4,9 @@
   "description": "Automate fetching invoices from ChatGPT subscription using Puppeteer.",
   "license": "MIT",
   "author": {
-    "name": "Radomir Wojtera",
-    "email": "radomir.wojtera@gmail.com",
-    "url": "https://github.com/tiriana"
+    "name": "Brian Moreno",
+    "email": "hello@bmediax.dev",
+    "url": "https://github.com/bmediax"
   },
   "type": "commonjs",
   "main": "index.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:radomir-dev/fetch-chat-gpt-invoice.git"
+    "url": "git@github.com:bmediax/fetch-chat-gpt-invoice.git"
   },
   "bugs": {
-    "url": "https://github.com/radomir-dev/fetch-chat-gpt-invoice/issues"
+    "url": "https://github.com/bmediax/fetch-chat-gpt-invoice/issues"
   },
-  "homepage": "https://github.com/radomir-dev/fetch-chat-gpt-invoice#readme",
+  "homepage": "https://github.com/bmediax/fetch-chat-gpt-invoice#readme",
   "keywords": [
     "ChatGPT",
     "invoices",
@@ -32,6 +32,7 @@
     "chatgpt-invoice"
   ],
   "dependencies": {
+    "dotenv": "^17.2.1",
     "node-fetch": "^3.3.2",
     "puppeteer": "^24.2.0"
   },
@@ -40,6 +41,6 @@
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/tiriana"
+    "url": "https://github.com/sponsors/bmediax"
   }
 }

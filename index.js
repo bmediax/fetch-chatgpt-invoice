@@ -1,3 +1,4 @@
+require('dotenv').config();
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
@@ -57,6 +58,7 @@ async function verifyAccessToken(accessToken) {
 }
 
 async function getChatGptAccessToken(page) {
+    console.log(process.env.CHAT_GPT_ACCESS_TOKEN)
     if (process.env.CHAT_GPT_ACCESS_TOKEN) {
         console.log("✅ Found access token in ENV, verifying...");
 

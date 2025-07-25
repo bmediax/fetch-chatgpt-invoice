@@ -102,8 +102,3 @@ $ npm start
 | **Cookies** | You save ChatGPT cookies in `COOKIES_JSON` (env var) or `cookies.json` (file). | Use **EditThisCookie (V3)** or another method. |
 
 **🔥 If no token or cookies are found → The script cannot authenticate! 🔥**  
-
----
-
-### **💡 Need Help?**
-Feel free to **open an issue** or reach out! 🚀  
